@@ -4,7 +4,8 @@ The problem is as follows.
 You've been given the input (attached), comprised of a sequence of words 
 that are arranged in alphabetical order (for some arbitrary alternate alphabet). 
 Given this file, we would like you to return an ordered sequence of the letters 
-that comprise the alphabet used to sort this list of terms. 
+that comprise the alphabet used to sort this list of terms.
+
 For instance, the output might look like this: 
 ```
 Letter 1 => 'b'  Letter 2 => 'd'  Letter 3 => ...
