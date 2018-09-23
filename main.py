@@ -88,10 +88,10 @@ def restore_alphabet(input_file_path=None):
 
 if __name__ == '__main__':
     if not argv[1:]:
-        print restore_alphabet('alphabet.txt')
+        print(restore_alphabet('alphabet.txt'))
     else:
         with open('result.txt', 'w') as alphabet:
-            l = restore_alphabet(argv[1])
-            for c in l[:-1]:
+            restoration_result = restore_alphabet(argv[1])
+            for c in restoration_result[:-1]:
                 alphabet.write(c + ", ")
-            alphabet.write(l[-1])
+            alphabet.write(restoration_result[-1])
